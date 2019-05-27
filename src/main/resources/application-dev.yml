@@ -1,0 +1,10 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /helloboot
+  tomcat:
+    uri-encoding: utf-8
+book:
+  author: wushi
+  name: spring boot
+  price: 30
