@@ -1,32 +1,31 @@
 package com.feibai.springboot_demo.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 /**
  * @Author: ${user}
  * @description:
- * @Date: Created in 14:52 2019/5/27
+ * @Date: Created in 16:10 2019/5/27
  * @Modfied by: ${user}
- * @Modfied Date by: 14:52 2019/5/27
+ * @Modfied Date by: 16:10 2019/5/27
  */
 @NoArgsConstructor
 @AllArgsConstructor
-public class Book {
+public class Author {
+
     @Getter
     @Setter
     private String name;
-    @Getter
     @Setter
-    private String author;
+    @Getter
+    private int age;
+
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "Author{" +
                 "name='" + name + '\'' +
-                ", author='" + author + '\'' +
+                ", age=" + age +
                 '}';
     }
 }
