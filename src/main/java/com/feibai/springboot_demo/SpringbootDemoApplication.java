@@ -12,6 +12,7 @@ public class SpringbootDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringbootDemoApplication.class, args);
 
+
         //关闭banner
         //SpringApplication springApplication = new SpringApplication(SpringbootDemoApplication.class);
         //springApplication.setBannerMode(Banner.Mode.OFF);
